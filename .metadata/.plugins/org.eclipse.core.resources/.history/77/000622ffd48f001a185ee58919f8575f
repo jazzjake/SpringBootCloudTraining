@@ -1,0 +1,2 @@
+spring.data.mongodb.uri=mongodb+srv://sjuser:parodi515@cluster0-clv5c.mongodb.net/test?retryWrites=true&w=majority
+spring.data.mongodb.database=testwwsz6hgv 

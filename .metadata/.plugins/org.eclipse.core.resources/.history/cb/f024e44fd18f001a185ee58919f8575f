@@ -1,0 +1,21 @@
+package com.conferencedemo.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.conferencedemo.model.Employee;
+import com.conferencedemo.repository.EmploeeRepository;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	private EmploeeRepository emploeeRepository;
+	
+	@Override
+	public List<Employee> findAll() {
+		// TODO Auto-generated method stub
+		return emploeeRepository.findAll();
+	}
+
+}
