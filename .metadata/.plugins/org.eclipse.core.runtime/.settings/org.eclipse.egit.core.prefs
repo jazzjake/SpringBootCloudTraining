@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\dev\\workspace\\CloudTraining\\com.conferencedemo\\.git;
-GitRepositoriesView.GitDirectories.relative=com.conferencedemo\\.git;
+GitRepositoriesView.GitDirectories=C\:\\dev\\workspace\\CloudTraining\\com.conferencedemo\\.git;C\:\\dev\\workspace\\CloudTraining\\.git;
+GitRepositoriesView.GitDirectories.relative=com.conferencedemo\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

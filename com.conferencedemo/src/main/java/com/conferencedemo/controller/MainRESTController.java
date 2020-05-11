@@ -3,6 +3,7 @@ package com.conferencedemo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,10 +19,13 @@ public class MainRESTController {
 
 	@Autowired
 	private EmployeeService employeeService;
+
+	@Value("${dbname:noWork}")
+	private String dbName;
 	
 	@RequestMapping("/")
 	public String welcome() {
-		return "Welcome to RestTemplate Demo.";
+		return "Welcome to RestTemplate Demo." + dbName;
 	}
 
 	@RequestMapping(value = "/employees", method = RequestMethod.GET)
